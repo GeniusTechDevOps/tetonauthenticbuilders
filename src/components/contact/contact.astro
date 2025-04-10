@@ -19,12 +19,12 @@ const { data } = Astro.props;
         </div>
       </div>
       <div class="ml-6 grow flex flex-col">
-        <p class="mb-2 font-bold">Call Us Now!</p>
+        <p class="mb-2 font-bold text-white">Call Us Now!</p>
         <div class="flex flex-col gap-2">
           {
             data.dataGeneral?.phones?.map((item) => (
               <a
-                class="text-gray-800 font-bold text-[18px]"
+                class="text-secondary font-bold text-[18px]"
                 href={`tel:+1${item.number}`}
               >
                 +1 {item.number}
@@ -46,11 +46,11 @@ const { data } = Astro.props;
         </div>
       </div>
       <div class="ml-6 grow">
-        <p class="mb-2 font-bold">Location</p>
+        <p class="mb-2 font-bold text-white">Location</p>
         <div class="flex flex-col gap-2">
           {
             data.dataGeneral?.location.slice(0, 1).map((item) => (
-              <a class="text-gray-800 font-bold text-[18px]" href="#">
+              <a class="text-secondary font-bold text-[18px]" href="#">
                 {item.city}
               </a>
             ))
@@ -74,8 +74,8 @@ const { data } = Astro.props;
             </div>
 
             <div class="ml-6 grow">
-              <p class="mb-2 font-bold">{item.days}</p>
-              <span class="text-gray-800 font-bold text-[18px]">
+              <p class="mb-2 font-bold text-white">{item.days}</p>
+              <span class="text-secondary font-bold text-[18px]">
                 {item.hours}
               </span>
             </div>
@@ -96,12 +96,12 @@ const { data } = Astro.props;
         </div>
       </div>
       <div class="ml-6 grow">
-        <p class="mb-2 font-bold">Email Us!</p>
+        <p class="mb-2 font-bold text-white">Email Us!</p>
         <div class="flex flex-col gap-2">
           {
             data.dataGeneral?.emails?.map((item) => (
               <a
-                class="text-gray-800 font-bold text-[16px]"
+                class="text-secondary font-bold text-[16px]"
                 href={`mailto:${item.email}`}
               >
                 {item.email}

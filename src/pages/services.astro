@@ -28,12 +28,12 @@ const dataBlocks = data?.sectionsHomeAbout.filter(
   <div class="md:w-[70%] mx-auto w-[95%] md:py-24 py-4">
     <div class="flex justify-center flex-col items-center mt-8">
       <h2
-        class="text-5xl font-bold text-center text-primaryColor border-l-[8px] pl-2 border-primary"
+        class="text-5xl font-bold text-center text-white border-l-[8px] pl-2 border-primary"
       >
         Our Services
       </h2>
       <h3
-        class="text-3xl font-bold text-center text-primaryColor mt-4 capitalize"
+        class="text-3xl font-bold text-center text-white mt-4 capitalize"
       >
         {data.slogan[3]}
       </h3>
@@ -55,7 +55,7 @@ const dataBlocks = data?.sectionsHomeAbout.filter(
                 <h2 class="md:text-[30px] text-[25px] font-bold text-secondary">
                   {item.title}
                 </h2>
-                <p class="pb-3">{item.description[0].text}</p>
+                <p class="pb-3 text-slate-100">{item.description[0].text}</p>
                 <div class="w-full flex md:justify-start justify-center">
                   <ButtonContent
                     titleBtn="Call Us Now"

@@ -1,6 +1,6 @@
 ---
 import type { RootObject, SectionsHomeAbout } from "../interfaces/dbData";
-import BlockTwo from "../components/about/BlockTwo"
+import BlockTwo from "../components/about/BlockTwo";
 import Layout from "../layouts/Layout.astro";
 import TransparentHeader from "../components/global/TransparentHeader.astro";
 import BlockAbout from "../components/about/BlockAbout";
@@ -30,10 +30,9 @@ const aboutSection = data?.sectionsHomeAbout.filter(
 >
   <TransparentHeader title="About Us" image={data.gallery[8]} />
   <div>
-    <BlockAbout data={data} aboutSection={aboutSection} client:load/>
     <BlockTwo data={data} aboutSection={aboutSection} client:load />
-    
+    <BlockAbout data={data} aboutSection={aboutSection} client:load />
+
     <ValuesAbout data={data} />
-    
   </div>
 </Layout>

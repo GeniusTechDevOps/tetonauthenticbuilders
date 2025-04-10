@@ -46,7 +46,7 @@ const Directorios: React.FC<DirectoriosProps> = ({
         </div>
       )}
       <div>
-        <h2 className="md:text-[45px] text-[30px] font-bold text-center text-gray-800">
+        <h2 className="md:text-[45px] text-[30px] font-bold text-center text-secondary">
           Find Us On
         </h2>
       </div>
@@ -57,7 +57,7 @@ const Directorios: React.FC<DirectoriosProps> = ({
             href={item.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="md:w-[260px] w-[150px] h-[100px] flex justify-center items-center bg-white transition-all duration-300 ease-in-out transform hover:scale-105 logo-container"
+            className="md:w-[260px] w-[150px] h-[100px] flex justify-center items-center  transition-all duration-300 ease-in-out transform hover:scale-105 logo-container"
             key={index}
             aria-label={item.name}
           >

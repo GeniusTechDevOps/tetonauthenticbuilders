@@ -34,7 +34,7 @@ const data: RootObject = await response.json();
                     <span class="p-4 bg-opacity-30 flex justify-center items-center rounded-2xl w-[50px] h-[50px] border-2 border-primary">
                       <i class={`fa-solid fa-phone text-[24px] text-primary`} />
                     </span>
-                    <div class="flex flex-col pl-2">
+                    <div class="flex flex-col pl-2 text-white">
                       <span class="font-bold text-[18px]">{item.title}</span>
                       <span>{item.number}</span>
                     </div>
@@ -54,7 +54,7 @@ const data: RootObject = await response.json();
                       class={`fa-solid fa-location-dot text-[24px] text-primary`}
                     />
                   </span>
-                  <div class="flex flex-col pl-2">
+                  <div class="flex flex-col pl-2 text-white">
                     <span class="font-bold text-[18px]">Location</span>
                     <span>{item.city}</span>
                   </div>
@@ -73,7 +73,7 @@ const data: RootObject = await response.json();
                       class={`fa-regular fa-calendar text-[24px] text-primary`}
                     />
                   </span>
-                  <div class="flex flex-col pl-2">
+                  <div class="flex flex-col pl-2 text-white">
                     <span class="font-bold text-[18px]">{item.days}</span>
                     <span>{item.hours}</span>
                   </div>

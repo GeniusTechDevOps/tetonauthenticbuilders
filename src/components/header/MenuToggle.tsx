@@ -15,11 +15,9 @@ const MenuToggle = ({ data }: MenuToggleProps) => {
     <div className="relative ">
       {/* Botón para abrir/cerrar el panel */}
       <div
-        className="flex items-center gap-2 cursor-pointer text-white px-4 rounded-lg"
+        className="flex items-center gap-2 cursor-pointer bg3 text-black px-4 rounded-lg"
         onClick={() => setIsOpen(!isOpen)}
-        style={{
-          backgroundColor: data.colors.primaryColor,
-        }}
+        
       >
         <i className="fa-solid fa-bars text-2xl cursor-pointer p-2 rounded-md" aria-hidden={true}></i>
       </div>

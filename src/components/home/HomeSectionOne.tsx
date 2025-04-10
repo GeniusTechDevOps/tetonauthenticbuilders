@@ -16,9 +16,9 @@ const HomeSectionOne: React.FC<Props> = ({ data, aboutSection }) => {
       <div className="flex flex-col-reverse md:flex-row w-full h-auto">
         <div className="w-full md:w-1/2 px-10 flex flex-col justify-center items-center md:items-start pt-10 md:pt-0 text-center md:text-start">
           <h2 className="mt-2 text-3xl font-black md:text-5xl text-secondary pb-5 md:pb-10">
-            <HighlightedText text={data.slogan[2]} defaultColor="black" />
+            <HighlightedText text={data.slogan[2]} defaultColor="white" />
           </h2>
-          <p className="mb-6 text-base leading-7 text-gray-600">
+          <p className="mb-6 text-base leading-7 text-gray-100">
             {aboutSection[0].text}
           </p>
           <ButtonContent />

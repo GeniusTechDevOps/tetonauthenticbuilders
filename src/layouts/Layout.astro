@@ -90,7 +90,7 @@ const isSubdomainNetlify = domain.includes("netlify.app");
       ) : data.widgets.siteDown ? (
         <SiteDown />
       ) : (
-        <>
+        <div class="bg-[#141414]">
           <div class="relative z-50">
             <Header />
           </div>
@@ -101,7 +101,7 @@ const isSubdomainNetlify = domain.includes("netlify.app");
           <WidgetButton client:load />
           <ScrollToTop client:visible />
           <BotonWhatsapp data={data} client:load />
-        </>
+        </div>
       )
     }
 

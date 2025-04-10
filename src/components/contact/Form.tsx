@@ -5,7 +5,7 @@ interface FormProps {
 
 const Form: React.FC<FormProps> = ({ data }: FormProps) => {
   return (
-    <div className="">
+    <div className=" text-white">
       {/* @ts-ignore */}
       <form-contact
         to={data.dataGeneral.emails[0].email}

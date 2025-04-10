@@ -15,7 +15,7 @@ const Blocktwo: React.FC<Props> = ({ data, aboutSection }) => {
           <div className="flex-1 pl-0 lg:pl-4">
             <div className="mb-12">
               <div className="relative text-center">
-                <h2 className="text-5xl font-bold">{data.slogan[6]}</h2>
+                <h2 className="text-5xl font-bold text-secondary">{data.slogan[6]}</h2>
                 <div className="flex w-24 mt-3 mb-10 overflow-hidden rounded mx-auto">
                   <div className="flex-1 h-2 bg-blue-200"></div>
                   <div
@@ -28,7 +28,7 @@ const Blocktwo: React.FC<Props> = ({ data, aboutSection }) => {
                   ></div>
                 </div>
               </div>
-              <p className="mb-16 text-base text-gray-500 text-center">
+              <p className="mb-16 text-base text-gray-100 text-center">
                 {aboutSection[1].text}
               </p>
             </div>

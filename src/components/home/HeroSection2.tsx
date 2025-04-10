@@ -72,11 +72,11 @@ const HeroSection2: React.FC<HeroSection2Props> = ({ data }) => {
         </button>
 
       </div>
-      <div className="w-full md:w-1/2 h-full pl-2 md:pl-32 pt-0 md:pt-14 flex flex-col items-center md:items-start space-y-3 justify-start md:justify-center text-center md:text-start -mt-12 z-10 md:-mt-0">
-        <div className="bg-secondary px-5 py-1 rounded-bl-full rounded-r-full w-4/5 md:w-3/5 text- text-white font-semibold text-base border-2 border-white shadow-xl hidden md:block">
+      <div className="w-full md:w-1/2 h-full text-white pl-2 md:pl-32 pt-0 md:pt-14 flex flex-col items-center md:items-start space-y-3 justify-start md:justify-center text-center md:text-start -mt-12 z-10 md:-mt-0">
+        <div className="bg3 px-5 py-1 rounded-bl-full rounded-r-full w-4/5 md:w-3/5 text- text-black font-semibold text-base border-2 border-white shadow-xl hidden md:block">
           <p>{data.name}</p>
         </div>
-        <h2 className="text-border text-4xl md:text-6xl "><IconGlobal /> {data.slogan[0]}</h2>
+        <h2 className="text-secondary font-bold text-4xl md:text-6xl capitalize"><IconGlobal /> {data.slogan[0]}</h2>
         <p>{data.valuesContent.mission}</p>
         <ButtonContent />
       </div>
