@@ -50,7 +50,7 @@ const HeroSection2: React.FC<HeroSection2Props> = ({ data }) => {
   return (
     <div className="flex flex-col md:flex-row w-full relative md:px-0 h-auto md:h-screen">
       <div className="w-full md:w-[50%] h-full relative">
-        <div className={`w-[430px] md:w-[125vh] h-[520px] md:h-[125vh] rounded-r-[100%] rounded-bl-[100%] object-cover border-[10px] border-white shadow-xl -top-20 -left-32 absolute bg-primary hidden md:block`}></div>
+        <div className={`w-[430px] md:w-[125vh] h-[520px] md:h-[125vh] rounded-r-[100%] rounded-bl-[100%] object-cover border-[10px] border-white shadow-xl -top-20 -left-32 absolute bg3 hidden md:block`}></div>
 
         {data.gallery.slice(4, 9).map((image, index) => (
           <div key={index}
