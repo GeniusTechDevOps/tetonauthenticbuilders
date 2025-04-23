@@ -6,7 +6,7 @@ const Directorios: React.FC<DirectoriosProps> = ({
   data,
 }: DirectoriosProps) => {
   return (
-    <div className="md:py-20 py-16 md:w-[70%] mx-auto w-full">
+    <div className="md:py-20 py-16 md:w-full bg-white mx-auto w-full">
       {data.gmb && (
         <div className="flex items-center gap-6 justify-center md:flex-row flex-col">
           <div className="flex flex-col">
@@ -46,7 +46,7 @@ const Directorios: React.FC<DirectoriosProps> = ({
         </div>
       )}
       <div>
-        <h2 className="md:text-[45px] text-[30px] font-bold text-center text-secondary">
+        <h2 className="md:text-[45px] text-[30px] font-bold text-center text-black">
           Find Us On
         </h2>
       </div>

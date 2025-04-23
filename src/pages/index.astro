@@ -42,7 +42,7 @@ const aboutSection = data?.sectionsHomeAbout.filter(
   <HomeSectionOne data={data} aboutSection={homeSection} />
   <ValuesHome data={data} />
   <Directorios client:only data={data} />
-  <div class="md:pt-16">
+  <div class="md:pt-16 bg-white">
     <div class="flex justify-center flex-col text-center">
       <span
         class="md:text-[50px] text-primary w-[70px] h-[70px] p-4 rounded-full flex justify-center items-center mx-auto hover:bg-secondary hover:text-white
@@ -58,7 +58,7 @@ const aboutSection = data?.sectionsHomeAbout.filter(
       <h2
         class="md:text-[40px] text-[25px] mb-2 font-bold text-center text-secondary"
       >
-        <HighlightedText text={data.slogan[3]} defaultColor="white" />
+        <HighlightedText text={data.slogan[3]} defaultColor="black" />
       </h2>
     </div>
     <div class="py-10">

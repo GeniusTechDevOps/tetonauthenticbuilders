@@ -19,7 +19,7 @@ const BlockAbout: React.FC<BlockAboutProps> = ({ data, slidesPerView = 3, aboutS
     return (
         <section className="overflow-hidden">
             <div
-                className="flex items-center py-20 bg-gradient-to-br from-primary to-gray-800 font-poppins"
+                className="flex items-center py-20 bg-gradient-to-br from-black font-poppins"
             >
                 <div
                     className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-6 md:px-6"
