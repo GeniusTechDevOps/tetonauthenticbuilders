@@ -30,7 +30,7 @@ const BlockAbout: React.FC<BlockAboutProps> = ({ data, slidesPerView = 3, aboutS
                                 
                                 <span className="text-white text-[28px] font-bold">About Us <i className="fa-solid fa-house"></i></span>
                                 <h2 className="text-5xl font-bold text-white">
-                                    <HighlightedText text={data.slogan[2]} defaultColor="white" />
+                                    <HighlightedText text={data.slogan[8]} defaultColor="white" />
                                 </h2>
                             </div>
                             <p className="mb-4 text-base leading-7 text-white">
