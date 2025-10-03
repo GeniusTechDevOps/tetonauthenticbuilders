@@ -11,6 +11,7 @@ import ColorPalette from "../components/home/ColorPalette.astro";
 import HighlightedText from "../components/global/TitleColor";
 import BlockAbout from "../components/about/BlockAbout";
 import HomeSectionOne from "../components/home/HomeSectionOne";
+import PostComponent from "../components/home/PostComponent";
 
 let API_URL = import.meta.env.API_URL;
 // Realiza la llamada a la API
@@ -39,6 +40,7 @@ const aboutSection = data?.sectionsHomeAbout.filter(
 >
   <!-- <Slideshow data={data} client:load /> -->
   <HeroSection2 data={data} client:load />
+  <PostComponent dataBlocks={dataBlocks} client:load />
   <HomeSectionOne data={data} aboutSection={homeSection} />
   <ValuesHome data={data} />
   <Directorios client:only data={data} />
